@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Capstone Project: Scentopedia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Scentopedia is a web application that allows users to explore fragrances, save their favorites, interact with a chatbot, and locate physical stores where they can purchase these fragrances. This project was developed as part of my capstone for the Computer Science program at the University of Texas at Tyler.
 
-Currently, two official plugins are available:
+## Features
+- **Fragrance Discovery**: Users can browse a wide collection of fragrances with detailed information.
+- **User Accounts**: Create accounts to save favorite fragrances and manage wishlists.
+- **Store Locator**: Find nearby stores that stock selected fragrances with a customizable distance filter.
+- **Interactive Chatbot**: Users can interact with a chatbot for quick navigation and assistance on the website.
+- **Desktop-Only Design**: The website is optimized for desktop use with no support for mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Firebase Firestore
+- **Tools**: Vite (for development environment)
+- **UI/UX Framework**: Lucide for icons
 
-## Expanding the ESLint configuration
+## Installation and Setup
+To run this project locally, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/University-Projects.git
+2. Navigate to the capstone directory:
+  cd capstone
+3. Install dependencies:
+  npm install
+4. Start the development server:
+  npm run dev
+5. Open your browser and visit http://localhost:3000 to see the app in action.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Challenges and Learning
+This project provided me with valuable experience in:
+Building a full-stack web application.
+Integrating Firebase Firestore for real-time data storage.
+Managing state in a React app using TypeScript.
+Designing an intuitive desktop-only UI with Tailwind CSS and Lucide icons.
+Creating an interactive chatbot to enhance user engagement.
 
-- Configure the top-level `parserOptions` property like this:
+## Future Improvements
+AI-Powered Recommendations: Suggest fragrances based on user preferences.
+Enhanced Store Locator: Provide detailed directions and inventory data for nearby stores.
+Mobile Optimization: Add support for mobile devices to increase accessibility.
+Social Features: Enable users to share and discuss their favorite fragrances.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contact
+Feel free to reach out for questions or collaborations:
+Email: darius.richardson36@yahoo.com
+GitHub: dariusrichardson36
+LinkedIn: Darius Richardson
