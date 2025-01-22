@@ -1,0 +1,62 @@
+/* src/pages/Home.css */
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-content {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 60s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.snap-start {
+  flex-shrink: 0;
+  width: 18rem; /* Match the width of the FragranceCard */
+}
+
+/* Fade-in and Fade-out Animations */
+.fade-in-welcome {
+  animation: fadeIn 3s ease-in-out forwards, fadeOut 3s ease-in-out 6s forwards;
+  opacity: 0;
+}
+
+.fade-in-journey {
+  animation: fadeIn 3s ease-in-out 7s forwards, fadeOut 3s ease-in-out 11s forwards;
+  opacity: 0;
+}
+
+.fade-in-button {
+  animation: fadeIn 3s ease-in-out 13s forwards;
+  opacity: 0;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

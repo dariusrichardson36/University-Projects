@@ -1,0 +1,62 @@
+/* Accords.css */
+
+/* Fade-in keyframes animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Class to apply the fade-in animation to the video */
+  .fade-in-video {
+    animation: fadeIn 3s ease-in-out; /* Adjust the duration as needed */
+  }
+  
+  /* Full-screen video background */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video fills the container properly */
+    z-index: 0;
+  }
+  
+  /* Content overlay to ensure readability over the video */
+  .content-overlay {
+    position: relative;
+    z-index: 10; /* Places it above the video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 1.5rem; /* py-24 px-6 equivalent in Tailwind */
+    min-height: 100vh; /* Full viewport height */
+    color: black;
+  
+    /* Brighter frost effect for better readability */
+    background: rgba(255, 255, 255, 0.5); /* White with 50% opacity for a brighter effect */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Additional styling for text */
+  .content-overlay h2 {
+    font-size: 4rem; /* Equivalent to text-6xl for larger heading */
+    font-weight: bold;
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 for more spacing under the title */
+  }
+  
+  .content-overlay p {
+    font-size: 1.25rem; /* Equivalent to text-xl for larger description text */
+    font-weight: 400; /* Increased to make the text thicker but not too bold */
+    max-width: 56rem; /* Equivalent to max-w-3xl for slightly wider content */
+    margin: 0 auto; /* Centers the paragraph */
+    line-height: 1.75; /* Increase line-height for better readability */
+  }
+  

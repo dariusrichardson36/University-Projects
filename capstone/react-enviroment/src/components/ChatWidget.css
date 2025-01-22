@@ -1,0 +1,111 @@
+/* Container for the entire widget */
+.chat-widget-container {
+    position: fixed;
+    bottom: 1rem;  /* equivalent to bottom-4 */
+    right: 1rem;   /* equivalent to right-4 */
+    z-index: 50;   /* equivalent to z-50 */
+}
+
+/* Container for the chat window when open */
+.chat-window-container {
+    position: absolute;
+    bottom: 4rem;   /* equivalent to bottom-16 */
+    right: 0;
+    margin-bottom: 0.5rem;  /* equivalent to mb-2 */
+}
+
+/* Inner chat window styling */
+.chat-window-inner {
+    background-color: white;
+    border-radius: 0.5rem;  /* equivalent to rounded-lg */
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); /* equivalent to shadow-xl */
+    width: 380px;
+    max-height: 600px;
+}
+
+/* Header section of chat window */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;  /* equivalent to p-4 */
+    border-bottom: 1px solid rgb(229, 231, 235);  /* equivalent to border-b */
+}
+
+/* Chat title styling */
+.chat-title {
+    font-weight: 600;  /* equivalent to font-semibold */
+    font-size: 1.125rem;  /* equivalent to text-lg */
+}
+
+/* Close button styling */
+.close-button {
+    padding: 0.25rem;
+    border-radius: 9999px;
+    transition: background-color 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button:hover {
+    background-color: rgb(243, 244, 246);
+}
+
+/* Icon styling */
+.chat-icon {
+    width: 1.5rem;  /* equivalent to w-6 */
+    height: 1.5rem;  /* equivalent to h-6 */
+    color: white;  /* equivalent to text-white */
+}
+
+/* Toggle button styling */
+.chat-toggle-button {
+    padding: 1rem;  /* equivalent to p-4 */
+    border-radius: 9999px;  /* equivalent to rounded-full */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);  /* equivalent to shadow-lg */
+    transition: all 200ms;  /* equivalent to transition-all duration-200 */
+}
+
+/* Toggle button states */
+.chat-toggle-button-open {
+    background-color: rgb(5, 150, 105);  /* equivalent to bg-emerald-600 */
+}
+
+.chat-toggle-button-open:hover {
+    background-color: rgb(4, 120, 87);  /* equivalent to hover:bg-emerald-700 */
+}
+
+.chat-toggle-button-closed {
+    background-color: rgb(16, 185, 129);  /* equivalent to bg-emerald-500 */
+}
+
+.chat-toggle-button-closed:hover {
+    background-color: rgb(5, 150, 105);  /* equivalent to hover:bg-emerald-600 */
+}
+
+/* Chat prompt styles */
+.chat-prompt {
+    position: absolute;
+    bottom: 4.5rem;
+    right: 1rem;
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+/* Add a small triangle/pointer to the chat prompt */
+.chat-prompt::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    right: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 2px -1px rgb(0 0 0 / 0.1);
+}

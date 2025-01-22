@@ -1,0 +1,46 @@
+/* src/components/InfiniteScrollFragrances.css */
+
+.scroll-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .scroll-content {
+    display: flex;
+    width: fit-content;
+    animation: scroll-left 60s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .snap-start {
+    flex-shrink: 0;
+    width: 18rem; /* Match the width of the FragranceCard */
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .mt-20 {
+    margin-top: 5rem;
+  }
+  
+  .pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .card-title,
+  .brand-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }

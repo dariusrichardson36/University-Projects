@@ -1,0 +1,76 @@
+// Custom styles for the FilteredList component
+
+// Center the filter container with a max-width
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// Add some spacing between accordion items
+.accordion-item {
+  margin-bottom: 15px;
+}
+
+// Add custom styling for the accordion header to make it stand out a bit more
+.accordion-header {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+// Keep the default bootstrap hover effect but add custom colors if needed
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa; // Change this color if needed
+}
+
+// Styling for the price range label
+.price-slider {
+  margin-top: 10px;
+
+  .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+// Adjusting the width of the input group inside the accordion
+.input-group {
+  margin-bottom: 10px;
+}
+
+// Custom styles for the list group items (checkboxes)
+.list-group-item {
+  padding: 10px 15px;
+  &:hover {
+    background-color: #f8f9fa; // Matches Bootstrap hover effect
+  }
+}
+
+// Custom styles for Fragrances component
+
+.filtered-list-wrapper {
+  display: block;       // Change to block-level element to keep it under the header
+  margin-left: 0;       // Align the filtered list to the left
+  margin-top: 20px;     // Add spacing between the header and the filtered list
+  padding-left: 20px;   // Add some left padding to control how far from the left edge
+  width: 300px;         // Keep the same width
+}
+
+@media (max-width: 768px) {
+  // Adjust for smaller screens if necessary
+  .filtered-list-wrapper {
+    width: 100%;       // Full width on smaller devices
+    margin-left: 0;    // Align to the left on mobile devices
+  }
+
+  .scrollable-list {
+    max-height: calc(1.5em * 5); // Adjust to fit around 5 items (1.5em is approximately the height of one item)
+    overflow-y: auto;             // Enables vertical scrolling
+  }
+
+  .filtered-list-group {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+}
