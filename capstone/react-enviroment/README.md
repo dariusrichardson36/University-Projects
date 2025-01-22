@@ -47,7 +47,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 Feel free to reach out for questions or collaborations:
-- Email: darius.richardson36@yahoo.com
-- GitHub: [dariusrichardson36](https://github.com/dariusrichardson36)
-- LinkedIn: [Darius Richardson](https://www.linkedin.com/in/darius-r-29804413b/)
-
+## Contact
+Feel free to reach out for questions or collaborations:
+- **Email**: [darius.richardson36@yahoo.com](mailto:darius.richardson36@yahoo.com)
+- **GitHub**: [dariusrichardson36](https://github.com/dariusrichardson36)
+- **LinkedIn**: [Darius Richardson](https://www.linkedin.com/in/darius-r-29804413b/)
