@@ -30,3 +30,10 @@ The repository includes the following projects:
 1. Clone this repository:
    ```bash
    git clone https://github.com/dariusrichardson36/University-Projects.git
+
+## Contact
+Feel free to reach out to me through the following methods:
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/darius-r-29804413b/)
+- **Email**: [darius.richardson36@yahoo.com](mailto:darius.richardson36@yahoo.com)
+- **Phone**: (+1) 832-897-8909
+- **GitHub Profile**: [GitHub](https://github.com/dariusrichardson36)
