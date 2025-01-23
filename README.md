@@ -28,10 +28,10 @@ The repository includes the following projects:
 
 ## 🛠 Skills
 - Programming: **JavaScript**, **TypeScript**, **Python**, **SQL**, **Java**, **C++**
-- Frameworks & Tools: **React**, **Vite**, **Firebase**, **Dart**, **Flutter**
-- Database Management: **Firestore**, **PostgreSQL**, **MySQL Workbench**
+- Frameworks & Tools: **React**, **Vite**, **Dart**, **Flutter**, **Lucide**
+- Database Management: **Firebase**, **PostgreSQL**, **MySQL Workbench**
 - Version Control: **Git**, **GitHub**, **Visual Studio Code**
-- Other skills: **Team collaboration**, **database design and integration**, **debugging**
+- Other skills: **Team collaboration**, **Database design and integration**, **Debugging**
 - 
 ## Usage
 1. Clone this repository:
