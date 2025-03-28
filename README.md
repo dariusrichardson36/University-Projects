@@ -32,7 +32,7 @@ The repository includes the following projects:
 - Database Management: **Firebase**, **PostgreSQL**, **MySQL Workbench**
 - Version Control: **Git**, **GitHub**, **Visual Studio Code**
 - Other skills: **Team collaboration**, **Database design and integration**, **Debugging**
-- 
+
 ## Usage
 1. Clone this repository:
    ```bash
